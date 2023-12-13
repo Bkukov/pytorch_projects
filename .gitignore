@@ -1,0 +1,57 @@
+# General purpose gitignore
+
+# Ignore temporary files and directories
+*.cache
+*.tmp
+*.temp
+tmp/
+log/
+
+# Ignore IDE-specific files
+.idea/
+*.suo
+*.swp
+.vscode/
+
+# Ignore build and deployment artifacts
+build/
+dist/
+deploy/
+*.log
+*.map
+
+# Ignore generated documentation
+docs/_build/
+gh-pages/
+
+# Ignore personal and machine-specific files
+.env
+.env.*
+.secrets
+.gitignore_local
+
+# Ignore OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore version control systems and backups
+.git/
+.svn/
+.hg/
+
+# Ignore miscellenous files
+*.bak
+*.old
+*~
+
+# Ignore specific file extensions
+.DS_Store
+.DS_Store?
+*.psd
+*.ai
+*.indd
+
+# Ignore locally added rules (not committed to the repo)
+# Add your specific ignore patterns here
+
+# End of gitignore file
